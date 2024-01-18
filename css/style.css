@@ -1,0 +1,80 @@
+@import url(./variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  --gap-size: 16px;
+  --padding-size: 1.5rem;
+  width: 385px;
+  height: 520px;
+  padding: var(--padding-size);
+  background-color: var(--container-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-size);
+  border: 1px solid var(--header-color);
+  border-radius: 1rem;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+header > img {
+  border-radius: 0.7rem;
+}
+
+span {
+  display: inline-block;
+  background-color: var(--bg-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+main p:nth-child(2) {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 16px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+h1:hover {
+  color: var(--primary-color);
+}
+
+#description {
+  color: var(--paragraph-color);
+  line-height: 26px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+footer > img {
+  width: 36px;
+}
+
+h2 {
+  font-size: 16px;
+}

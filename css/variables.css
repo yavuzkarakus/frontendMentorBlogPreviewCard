@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+    --bg-color: hsl(47, 88%, 63%);
+    --primary-color: hsl(47, 88%, 63%);
+    --paragraph-color: hsl(0, 0%, 50%);
+    --header-color: hsl(0, 0%, 7%);
+    --container-bg-color: hsl(0, 0%, 100%);
+
+    --fs-paragraph: 16px;
+}
